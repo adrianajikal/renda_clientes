@@ -37,8 +37,10 @@ O logaritmo da variável renda foi calculado e a matriz de correlações foi rev
 Gráficos de dispersão e heatmaps foram gerados para visualizar correlações e padrões.
 
 **Resultados**
+
 Correlação com tempo_emprego: A transformação logarítmica da renda revelou uma correlação mais clara com o tempo de emprego.
 Outras Variáveis: A transformação logarítmica não alterou significativamente a correlação com qtd_filhos, idade e qt_pessoas_residencia.
 
 **Conclusão**
+
 A aplicação do logaritmo na variável renda melhorou a análise ao revelar uma relação mais clara com tempo_emprego. No entanto, para outras variáveis, a transformação não trouxe grandes mudanças. A análise sugere que o tempo de emprego é uma variável importante na predição da renda.
