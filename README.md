@@ -17,21 +17,28 @@ Os dados estão no arquivo previsao_de_renda.csv e a seguir são algumas variave
 - Carregamento dos Dados
 
 O arquivo CSV foi carregado em um DataFrame do Pandas.
+
 ## **Análise Exploratória**
 
 ### Matriz de Dispersão: Criada para visualizar a relação entre variáveis quantitativas.
+
 ### Matriz de Correlações: Avaliada para identificar correlações entre as variáveis.
+
 ### Identificação de Outliers
 
 Utilizou-se gráficos de dispersão para identificar possíveis outliers.
+
 ### Transformação Logarítmica
 
 O logaritmo da variável renda foi calculado e a matriz de correlações foi revisada para identificar mudanças nas relações entre variáveis.
+
 **Visualização**
 
 Gráficos de dispersão e heatmaps foram gerados para visualizar correlações e padrões.
+
 **Resultados**
 Correlação com tempo_emprego: A transformação logarítmica da renda revelou uma correlação mais clara com o tempo de emprego.
 Outras Variáveis: A transformação logarítmica não alterou significativamente a correlação com qtd_filhos, idade e qt_pessoas_residencia.
+
 **Conclusão**
 A aplicação do logaritmo na variável renda melhorou a análise ao revelar uma relação mais clara com tempo_emprego. No entanto, para outras variáveis, a transformação não trouxe grandes mudanças. A análise sugere que o tempo de emprego é uma variável importante na predição da renda.
